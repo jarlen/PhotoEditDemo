@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg" >
+
+    <include
+        android:id="@+id/common_top_bar"
+        layout="@layout/layout_common_top_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/common_top_bar" >
+
+        <com.js.photosdk.mosaic.DrawMosaicView
+            android:id="@+id/mosaic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/common_bg"
+            android:contentDescription="@string/app_name" >
+        </com.js.photosdk.mosaic.DrawMosaicView>
+    </RelativeLayout>
+
+</RelativeLayout>

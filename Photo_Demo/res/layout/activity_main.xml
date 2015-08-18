@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg" >
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_linear"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/pictureShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_linear"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:background="#000"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/addPictureFromPhoto"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="相册"
+            android:textColor="#979797"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/addPictureFromCamera"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="相机"
+            android:textColor="#979797"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/testBtn"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="测试"
+            android:textColor="#32cd99"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</RelativeLayout>

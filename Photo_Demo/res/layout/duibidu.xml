@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/dstImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="240px"
+        android:maxWidth="240px"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="饱和度" />
+
+            <!-- 定义一个拖动条，并改变它的滑块外观 -->
+
+            <SeekBar
+                android:id="@+id/Saturationseekbar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:max="200"
+                android:progress="100" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="亮度" />
+
+            <!-- 定义一个拖动条，并改变它的滑块外观 -->
+
+            <SeekBar
+                android:id="@+id/Brightnessseekbar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:max="255"
+                android:progress="127" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="对比度" />
+
+            <!-- 定义一个拖动条，并改变它的滑块外观 -->
+
+            <SeekBar
+                android:id="@+id/Contrastseekbar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:max="127"
+                android:progress="63" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
