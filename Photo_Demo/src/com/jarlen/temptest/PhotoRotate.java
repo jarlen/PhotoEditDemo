@@ -1,7 +1,7 @@
 package com.jarlen.temptest;
 
 import com.jarlen.picturetest.R;
-import com.js.photosdk.utils.*;
+import com.js.photosdk.utils.PhotoUtils;
 
 import android.app.Activity;
 import android.content.Intent;
