@@ -1,4 +1,4 @@
-# 图片处理sdk
+# 图片处理sdk(just for eclipse)
 
   - cn.ffmpeg
     - gif mp4 互转
