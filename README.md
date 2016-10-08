@@ -1,5 +1,8 @@
 # 图片处理sdk(just for eclipse)
 
+Note: 新的项目(for studio)转移到https://github.com/jarlen/PhotoEdit
+(包括jni本地源码),目前正在完善。
+
   - cn.ffmpeg
     - gif mp4 互转
   - com.js.photosdk.bodywarp
