@@ -1,3 +1,5 @@
+[![Android Gems](http://www.android-gems.com/badge/jarlen/PhotoEditDemo.svg?branch=master)](http://www.android-gems.com/lib/jarlen/PhotoEditDemo)
+
 # 图片处理sdk(just for eclipse)
 
 Note: 新的项目(for studio)转移到https://github.com/jarlen/PhotoEdit
